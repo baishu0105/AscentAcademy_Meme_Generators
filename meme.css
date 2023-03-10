@@ -1,0 +1,94 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: content-box;  
+}
+body{
+    background-image:url("https://i.pinimg.com/736x/20/cb/e3/20cbe3da45f15b3c4748345f9002cca7.jpg") ;
+}
+#main{
+    width: 65vw;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+#memes{
+    width: 40vw;
+    height: 60vh;
+    position:relative;
+    transform: translate(12.5vw, 0vw);
+}
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+textarea{
+    width: 39.2vw;
+    resize: vertical;
+    height: 10px;
+    font-size: 25px;
+    overflow: hidden;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    margin-bottom: -10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    padding: 5px;
+}
+#upper{
+    background: rgb(238, 255, 0);
+    -webkit-text-fill-color: black;
+}
+#lower{
+    background: rgb(238, 255, 0);
+    -webkit-text-fill-color: rgb(249, 7, 39);
+}
+#input{
+    display: none;
+    margin-top: 50px;
+    
+}
+.btn{
+    background: rgb(22, 7, 236);
+    text-transform: capitalize;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#downloads{
+    display: none;
+}
+i{
+    padding: 0 5px;
+}
+.access{
+    margin-top: 20px;
+    text-align: center;
+}
+#memes{
+    background: rgb(241, 236, 236);
+}
+
+@media screen and (max-width:500px){
+    #main,img,textarea,#memes{
+        width: 100px;
+    }
+}
+@media screen and (max-width:300px){
+    #memes,img{
+        height: 200px;
+    }
+    .access a{
+        display: block;
+        width: 170px;
+        margin: 5px auto;
+    }
+}

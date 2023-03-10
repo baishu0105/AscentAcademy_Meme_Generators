@@ -27,3 +27,8 @@ This is a web application that allows users to generate memes easily and quickly
 
 ## Contributing
 Contributions to the application are welcome. Please fork the repository and submit a pull request with your changes. Any improvements, bug fixes, or additional features are appreciated.
+
+
+
+@AscentAcademy
+ https://github.com/AscentAcademy

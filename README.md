@@ -22,7 +22,7 @@ This is a web application that allows users to generate memes easily and quickly
  - JavaScript
 
 ## Link to live demo
-https://baishu0105.github.io/AscentAcademy_Meme_Generators/
+https://meme-generatorapp05.netlify.app/
 
 
 ## Contributing
